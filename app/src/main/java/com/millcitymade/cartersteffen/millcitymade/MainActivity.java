@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                     toolbar.setTitle(R.string.title_shop);
                     fragment = new ShopFragment();
                     loadFragment(fragment);
+                    mTextMessage.setText("");
                     //mTextMessage.setText(R.string.title_shop);
                     return true;
                 case R.id.navigation_dashboard:
