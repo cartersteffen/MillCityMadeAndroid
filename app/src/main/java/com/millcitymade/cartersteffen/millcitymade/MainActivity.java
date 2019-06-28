@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         toolbar = getSupportActionBar();
-        getSupportActionBar().setTitle("Title");
+        //getSupportActionBar().setTitle("Title");
         //getSupportActionBar().setSubtitle("Subtitle");
         //getSupportActionBar().setHomeButtonEnabled(true);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);

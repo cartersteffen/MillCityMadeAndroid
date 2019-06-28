@@ -52,12 +52,13 @@
                 android:text="Wine Hat"
                 android:layout_centerHorizontal="true"
                 />
-            <include
+
+            <!--<include
                 android:id="@+id/googlePayButton"
                 layout="@layout/buy_with_googlepay_button"
                 android:layout_width=<your_width_dimension>
             android:layout_height="@dimen/buy_button_height"
-            android:visibility="gone"/>
+            android:visibility="gone"/>-->
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
